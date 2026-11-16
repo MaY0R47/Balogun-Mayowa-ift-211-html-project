@@ -1,0 +1,225 @@
+<!DOCTYPE html>
+<html lang="en">
+<head>
+    <meta charset="UTF-8">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <title>Introduction to Web Technology</title>
+     <style>
+        body { background-color: #FFFDD0; font-family: Arial, sans-serif; line-height: 1.7; margin: 0; }
+        header { background: #6b4226; color: white; text-align: center; padding: 25px; }
+        nav { text-align: center; background: white; padding: 12px; position: sticky; top: 0; }
+        nav a { margin: 0 8px; color: #6b4226; font-weight: bold; text-decoration: none; }
+        main { max-width: 850px; margin: 20px auto; background: white; padding: 22px; border-radius: 8px; }
+        h2 { color: #6b4226; border-bottom: 2px solid #f0d98c; padding-bottom: 5px; }
+        h3 { color: #7a4a00; }
+        img { width: 100%; border-radius: 8px; margin: 10px 0; }
+        table { width: 100%; border-collapse: collapse; margin: 10px 0; }
+        th, td { border: 1px solid #ccc; padding: 10px; text-align: left; }
+        th { background: #6b4226; color: white; }
+        .box { background: #FFFDD0; padding: 12px; border-left: 4px solid #6b4226; }
+        footer { background: #6b4226; color: white; text-align: center; padding: 18px; margin-top: 20px; }
+    </style>
+</head>
+<body>
+
+    <header>
+        <h1>What is Web Technology?</h1>
+        <p>A Discussion on the Tools, History and Systems That Power the Internet</p>
+    </header>
+
+    <nav>
+        <a href="#meaning">Meaning</a>
+        <a href="#history">History</a>
+        <a href="#how">How It Works</a>
+        <a href="#types">Types</a>
+        <a href="#frontend">Frontend vs Backend</a>
+        <a href="#uses">Uses</a>
+        <a href="#table">Table</a>
+    </nav>
+
+    <main>
+
+        <section id="meaning">
+            <h2>1. Introduction to Web Technology</h2>
+            <p>
+                Web technology is the collection of tools, languages, protocols and systems used to create,
+                display and manage websites and web applications on the Internet.
+                It allows people to communicate, learn, shop, watch videos, bank and do business online
+                from anywhere in the world.
+            </p>
+            <p>
+                Every website you visit, from Google to WhatsApp Web to JAMB portal, is built using web technologies.
+                Without them, the Internet would just be connected computers with no way to show
+                information in an organized and beautiful way.
+            </p>
+            <p>
+                Web technology is not just about building websites. It is also about how information
+                is stored, sent, protected and displayed to users quickly and safely.
+            </p>
+        </section>
+
+        <section id="history">
+            <h2>2. Brief History of Web Technology</h2>
+            <p>
+                The World Wide Web was invented by <strong>Tim Berners-Lee in 1989</strong> at CERN in Switzerland.
+                At first, websites were just simple text pages with links.
+            </p>
+            <p>
+                Later, HTML improved, CSS was introduced for design, and JavaScript was added for interactivity.
+                Today we have modern tools like React, YouTube, online banking and AI-powered websites,
+                all built on the same basic foundation.
+            </p>
+            <img src="https://images.unsplash.com/photo-1518770660439-4636190af475?auto=format&fit=crop&w=1000&q=80" alt="Circuit board showing computer technology">
+            <p><i>Image: Computer hardware that powers web technology.</i></p>
+        </section>
+
+        <section id="how">
+            <h2>3. How The Web Works</h2>
+            <p>
+                When you type a website address like www.google.com, these 4 steps happen in seconds:
+            </p>
+            <ol>
+                <li>You type the address in your <strong>browser</strong></li>
+                <li>Your browser sends a request to a <strong>web server</strong> using HTTP/HTTPS</li>
+                <li>The server finds the website files and sends them back</li>
+                <li>Your browser displays the files as a beautiful web page</li>
+            </ol>
+            <img src="https://images.unsplash.com/photo-1558494949-ef010cbdcc31?auto=format&fit=crop&w=1000&q=80" alt="Servers that store websites">
+            <p><i>Image: Servers that store and deliver websites to millions of users.</i></p>
+            <p class="box">
+                <strong>Simple way to remember:</strong> Internet = Road. Web = Cars, Shops and Houses using the road. Browser = Driver that takes you there.
+            </p>
+        </section>
+
+            <h2>4. Main Types of Web Technologies</h2>
+            <ul>
+                <li><strong>HTML (HyperText Markup Language)</strong> - Builds the structure of a web page like headings, paragraphs, images</li>
+                <li><strong>CSS (Cascading Style Sheets)</strong> - Adds colours, fonts, spacing and layout. This page is cream because of CSS</li>
+                <li><strong>JavaScript</strong> - Adds action, like buttons, forms, pop-ups and sliders</li>
+                <li><strong>HTTP / HTTPS</strong> - Rules for sending web pages. HTTPS is the secure version</li>
+                <li><strong>URL</strong> - The address of a web page, e.g. www.google.com</li>
+                <li><strong>Web Browser</strong> - App used to view websites</li>
+                <li><strong>Web Server</strong> - Computer that stores and delivers websites</li>
+                <li><strong>Database</strong> - Stores user data like names and passwords e.g. MySQL</li>
+            </ul>
+
+            <h3>Examples of Web Browsers</h3>
+            <ol>
+                <li>Google Chrome - Most popular in the world</li>
+                <li>Mozilla Firefox - Open source and privacy-focused</li>
+                <li>Microsoft Edge - Built into Windows</li>
+                <li>Apple Safari - Built into iPhone and Mac</li>
+                <li>Opera - Has free VPN and ad-blocker</li>
+                <li>Brave - Blocks ads and trackers</li>
+            </ol>
+        </section>
+
+        <section id="frontend">
+            <h2>5. Frontend vs Backend</h2>
+            <p>
+                Web technology is divided into two main parts:
+            </p>
+            <p>
+                <strong>Frontend</strong> is what the user sees - the design, buttons, colours and text.
+                It uses HTML, CSS and JavaScript.
+            </p>
+            <p>
+                <strong>Backend</strong> is what the user does NOT see - the server, database and logic
+                that saves your login, processes payments and loads your data.
+                It uses languages like Python, PHP and Node.js.
+            </p>
+            <p>
+                Example: On Instagram, the photos and buttons you see are Frontend.
+                The system that saves your photos and shows your followers is Backend.
+            </p>
+        </section>
+
+        <section id="uses">
+            <h2>6. Uses and Importance of Web Technology</h2>
+            <p>Web technology is important in our daily life because it is used for:</p>
+            <ul>
+                <li><strong>Education:</strong> Online classes, JAMB, e-learning</li>
+                <li><strong>Business:</strong> Online shops like Jumia, Konga</li>
+                <li><strong>Banking:</strong> GTB app, Opay, Palmpay</li>
+                <li><strong>Communication:</strong> WhatsApp, Email, Zoom</li>
+                <li><strong>Entertainment:</strong> YouTube, Netflix, TikTok</li>
+                <li><strong>Government:</strong> NIMC, INEC, Passport portal</li>
+            </ul>
+            <p>
+                Without web technology, it would be very hard to learn, work or do business
+                in the modern world.
+            </p>
+        </section>
+
+        <section id="table">
+            <h2>7. Comparison Table</h2>
+            <p>This table shows what each technology does:</p>
+            <table>
+                <tr>
+                    <th>Technology</th>
+                    <th>What It Does</th>
+                    <th>Example</th>
+                    <th>Seen By User?</th>
+                </tr>
+                <tr>
+                    <td>HTML</td>
+                    <td>Structure</td>
+                    <td>Headings, Paragraphs</td>
+                    <td>Yes</td>
+                </tr>
+                <tr>
+                    <td>CSS</td>
+                    <td>Style / Design</td>
+                    <td>Colours, Fonts</td>
+                    <td>Yes</td>
+                </tr>
+                <tr>
+                    <td>JavaScript</td>
+                    <td>Behaviour / Action</td>
+                    <td>Buttons, Forms</td>
+                    <td>Yes</td>
+                </tr>
+                <tr>
+                    <td>HTTP / HTTPS</td>
+                    <td>Sends Pages</td>
+                    <td>Secure Connection</td>
+                    <td>No</td>
+                </tr>
+                <tr>
+                    <td>Database</td>
+                    <td>Stores Data</td>
+                    <td>MySQL, MongoDB</td>
+                    <td>No</td>
+                </tr>
+                <tr>
+                    <td>Web Server</td>
+                    <td>Delivers Website</td>
+                    <td>Apache, Nginx</td>
+                    <td>No</td>
+                </tr>
+            </table>
+        </section>
+
+        <section>
+            <h2>8. Conclusion</h2>
+            <p>
+                In conclusion, web technology is what makes the modern Internet possible.
+                HTML gives structure, CSS gives beauty, and JavaScript gives life to web pages.
+                Behind the scenes, servers, databases and protocols work together to deliver
+                information in seconds.
+            </p>
+            <p>
+                As technology grows, web technology will continue to improve with AI websites,
+                Progressive Web Apps and faster, safer browsing for everyone.
+            </p>
+        </section>
+
+    </main>
+
+    <footer>
+        <p>Created by: Balogun Abdul-Akeem Mayowa | Matric No: 250502036</p>
+        <p>Course: Introduction to Web technologies</p>
+    </footer>
+
+</body>
+</html>
